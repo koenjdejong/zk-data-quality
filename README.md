@@ -1,6 +1,6 @@
-# Zero-knowledge data quality for multi-party computation
+# Auditable Data Quality Proofs for Secure Multi-Party Computation
 
-Artefact for *Zero-Knowledge Data Quality for Multi-Party Computation*.
+Artefact for *Auditable Data Quality Proofs for Secure Multi-Party Computation*.
 
 Three proof systems prove the same data-quality statement over the same synthetic transport-order
 dataset, so their cost can be compared: **UltraHonk** and **Groth16**, **Nova**.
