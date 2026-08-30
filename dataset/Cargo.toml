@@ -1,0 +1,9 @@
+[package]
+name = "dataset"
+version = "0.1.0"
+edition = "2021"
+description = "Reader for the dataset files written by shared/dataset_file.py"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

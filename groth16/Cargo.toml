@@ -1,0 +1,21 @@
+[package]
+name = "groth16"
+version = "0.1.0"
+edition = "2021"
+description = "Groth16 backend for the data-quality predicates"
+
+[dependencies]
+dataset = { path = "../dataset" }
+ark-bn254 = "0.6.0"
+ark-crypto-primitives = { version = "0.6.0", features = ["sponge", "constraints"] }
+ark-ff = "0.6.0"
+ark-groth16 = "0.6.0"
+ark-relations = "0.6.0"
+ark-r1cs-std = "0.6.0"
+ark-serialize = "0.6.0"
+ark-snark = "0.6.0"
+ark-std = "0.6.0"
+
+[[bin]]
+name = "groth16"
+path = "src/main.rs"
