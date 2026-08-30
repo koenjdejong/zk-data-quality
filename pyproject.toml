@@ -1,0 +1,18 @@
+[project]
+name = "zk-data-quality"
+version = "0.1.0"
+description = "Zero-knowledge data quality for multi-party computation"
+requires-python = ">=3.13"
+dependencies = [
+    "psutil>=6.0",
+    "mpyc>=0.11",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["shared", "bench"]
