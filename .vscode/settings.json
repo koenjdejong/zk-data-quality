@@ -1,9 +1,0 @@
-{
-  "python-envs.defaultEnvManager": "ms-python.python:pyenv",
-  "rust-analyzer.cargo.extraEnv": {
-    "PATH": "/opt/homebrew/opt/rustup/bin:/opt/homebrew/bin:/usr/bin:/bin"
-  },
-  "rust-analyzer.linkedProjects": [
-    "Cargo.toml"
-  ]
-}
